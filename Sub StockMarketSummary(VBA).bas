@@ -83,13 +83,13 @@ Else
 End If
     
 'Change the color
-If Range("k" & Summary_Table_Row).Value > 0 Then
+If Range("j" & Summary_Table_Row).Value > 0 Then
 
-    Range("k" & Summary_Table_Row).Interior.ColorIndex = 4
+    Range("j" & Summary_Table_Row).Interior.ColorIndex = 4
     
-ElseIf Range("k" & Summary_Table_Row).Value < 0 Then
+ElseIf Range("j" & Summary_Table_Row).Value < 0 Then
 
-    Range("k" & Summary_Table_Row).Interior.ColorIndex = 3
+    Range("j" & Summary_Table_Row).Interior.ColorIndex = 3
 
 End If
 
